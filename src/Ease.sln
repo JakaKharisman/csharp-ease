@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36804.6 d17.14
+VisualStudioVersion = 17.14.36804.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease", "Ease\Ease.csproj", "{7E8EF79B-589A-40CC-B25B-8B5CE4D729C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.Tests", "Ease.Tests\Ease.Tests.csproj", "{44B76426-6DC2-4505-B5CC-D912E7E99D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7E8EF79B-589A-40CC-B25B-8B5CE4D729C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E8EF79B-589A-40CC-B25B-8B5CE4D729C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E8EF79B-589A-40CC-B25B-8B5CE4D729C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B76426-6DC2-4505-B5CC-D912E7E99D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B76426-6DC2-4505-B5CC-D912E7E99D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B76426-6DC2-4505-B5CC-D912E7E99D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B76426-6DC2-4505-B5CC-D912E7E99D37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
