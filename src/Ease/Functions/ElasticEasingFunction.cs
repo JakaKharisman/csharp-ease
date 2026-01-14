@@ -5,6 +5,7 @@ namespace Ease.Functions
 	public class ElasticEasingFunction : EasingFunction
 	{
 		const double P = 0.3;
+		const double TAU_OVER_P = Math.Tau / P;
 
 		public ElasticEasingFunction(EasingMode mode) : base(Easing.Elastic, mode)
 		{
@@ -28,13 +29,13 @@ namespace Ease.Functions
 
 		public static double Out(double time)
 		{
-			return Math.Pow(2, -10 * time) * Math.Sin((time - P / 4) * (2 * Math.PI) / P) + 1;
+			return Math.Pow(2, -10 * time) * Math.Sin((time - P * 0.25) * TAU_OVER_P) + 1;
 		}
 
 		public static double InOut(double time)
 		{
-			if (time < 0.5) return In(time * 2) / 2;
-			return 1 - In((1 - time) * 2) / 2;
+			if (time < 0.5) return In(time * 2) * 0.5;
+			return 1 - In((1 - time) * 2) * 0.5;
 		}
 	}
 }

@@ -28,8 +28,8 @@
 
 		public static double InOut(double time)
 		{
-			if (time < 0.5) return In(time * 2) / 2;
-			return 1 - In((1 - time) * 2) / 2;
+			if (time < 0.5) return In(time * 2) * 0.5;
+			return 1 - In((1 - time) * 2) * 0.5;
 		}
 	}
 }

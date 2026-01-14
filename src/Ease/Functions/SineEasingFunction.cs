@@ -21,17 +21,17 @@ namespace Ease.Functions
 
 		public static double In(double time)
 		{
-			return Math.Cos(time * Math.PI / 2);
+			return 1 - Math.Cos(time * Math.PI * 0.5);
 		}
 
 		public static double Out(double time)
 		{
-			return Math.Sin(time * Math.PI / 2);
+			return Math.Sin(time * Math.PI * 0.5);
 		}
 
 		public static double InOut(double time)
 		{
-			return (Math.Cos(time * Math.PI) - 1) / -2;
+			return (Math.Cos(time * Math.PI) - 1) * -0.5;
 		}
 	}
 }
