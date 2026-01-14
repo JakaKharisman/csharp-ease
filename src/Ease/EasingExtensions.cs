@@ -26,7 +26,8 @@ namespace Ease
 		{
 			// alternatively, you can use the following for shorter code.
 			// return ToFunction(easing, mode).Interpolate(time);
-			// but since we are exposing each EasingMode as static method, we'll use that.
+			// however, it would likely introduce overhead
+			// since the it creates new instance of EasingFunction
 			switch (easing)
 			{
 				case Easing.Quad:
@@ -148,12 +149,6 @@ namespace Ease
 			return (float)easing.Interpolate(mode, time);
 		}
 
-		/// <summary>
-		/// 
-		/// </summary>
-		/// <param name="easing"></param>
-		/// <param name="time"></param>
-		/// <returns></returns>
 		public static double Interpolate(this Easing easing, double time)
 		{
 			return easing.Interpolate(EasingMode.InOut, time);

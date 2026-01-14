@@ -2,7 +2,7 @@
 {
 	public enum Easing
 	{
-		None,
+		Linear,
 
 		Quad,
 
