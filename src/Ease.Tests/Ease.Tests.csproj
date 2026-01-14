@@ -19,8 +19,4 @@
     <ProjectReference Include="..\Ease\Ease.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Using Include="Xunit" />
-  </ItemGroup>
-
 </Project>

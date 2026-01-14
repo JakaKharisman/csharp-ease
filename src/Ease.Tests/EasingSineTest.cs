@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace Ease.Tests
 {
 	public class EasingSineTest
