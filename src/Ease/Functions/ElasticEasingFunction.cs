@@ -7,7 +7,8 @@ namespace Ease.Functions
 		const double P = 0.3;
 		const double TAU_OVER_P = Math.Tau / P;
 
-		public ElasticEasingFunction(EasingMode mode) : base(Easing.Elastic, mode)
+
+		public ElasticEasingFunction(EasingMode mode) : base(mode)
 		{
 
 		}

@@ -4,7 +4,7 @@
 	{
 		const double S = 1.70158;
 
-		public BackEasingFunction(EasingMode mode) : base(Easing.Back, mode) { }
+		public BackEasingFunction(EasingMode mode) : base(mode) { }
 
 		public override double Interpolate(double time)
 		{

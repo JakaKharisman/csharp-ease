@@ -4,7 +4,7 @@ namespace Ease.Functions
 {
 	public class ExpoEasingFunction : EasingFunction
 	{
-		public ExpoEasingFunction(EasingMode mode) : base(Easing.Expo, mode)
+		public ExpoEasingFunction(EasingMode mode) : base(mode)
 		{
 
 		}

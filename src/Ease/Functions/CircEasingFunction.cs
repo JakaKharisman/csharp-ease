@@ -4,7 +4,7 @@ namespace Ease.Functions
 {
 	public class CircEasingFunction : EasingFunction
 	{
-		public CircEasingFunction(EasingMode mode) : base(Easing.Circ, mode)
+		public CircEasingFunction(EasingMode mode) : base(mode)
 		{
 
 		}

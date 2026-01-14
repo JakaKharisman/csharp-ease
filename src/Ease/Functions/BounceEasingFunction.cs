@@ -5,7 +5,7 @@
 		const double DIV = 2.75;
 		const double MULTIPLIER = 7.5625;
 
-		public BounceEasingFunction(EasingMode mode) : base(Easing.Bounce, mode) { }
+		public BounceEasingFunction(EasingMode mode) : base(mode) { }
 
 		public override double Interpolate(double time)
 		{

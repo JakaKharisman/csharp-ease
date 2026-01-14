@@ -2,7 +2,7 @@
 {
 	public class CubicEasingFunction : EasingFunction
 	{
-		public CubicEasingFunction(EasingMode mode) : base(Easing.Cubic, mode)
+		public CubicEasingFunction(EasingMode mode) : base(mode)
 		{
 
 		}

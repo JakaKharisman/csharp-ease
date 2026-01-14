@@ -2,7 +2,7 @@
 {
 	public class LinearEasingFunction : EasingFunction
 	{
-		public LinearEasingFunction() : base(Easing.None, EasingMode.InOut)
+		public LinearEasingFunction() : base(EasingMode.InOut)
 		{
 
 		}

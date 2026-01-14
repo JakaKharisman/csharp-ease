@@ -2,7 +2,7 @@
 {
 	public class QuadEasingFunction : EasingFunction
 	{
-		public QuadEasingFunction(EasingMode mode) : base(Easing.Quad, mode)
+		public QuadEasingFunction(EasingMode mode) : base(mode)
 		{
 
 		}
