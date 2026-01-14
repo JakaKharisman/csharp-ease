@@ -21,6 +21,7 @@ namespace Ease.Functions
 
 		public static double In(double time)
 		{
+			if (time == 0) return 0;
 			return Math.Pow(2, 10 * (time - 1));
 		}
 
