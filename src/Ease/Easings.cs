@@ -29,17 +29,17 @@ namespace Ease
 			return QuadEasingFunction.InOut(time);
 		}
 
-		public static float InQuad(float time)
+		public static float InQuadF(float time)
 		{
 			return (float)QuadEasingFunction.In(time);
 		}
 
-		public static float OutQuad(float time)
+		public static float OutQuadF(float time)
 		{
 			return (float)QuadEasingFunction.Out(time);
 		}
 
-		public static float InOutQuad(float time)
+		public static float InOutQuadF(float time)
 		{
 			return (float)QuadEasingFunction.InOut(time);
 		}
@@ -61,17 +61,17 @@ namespace Ease
 			return SineEasingFunction.InOut(time);
 		}
 
-		public static float InSine(float time)
+		public static float InSineF(float time)
 		{
 			return (float)SineEasingFunction.In(time);
 		}
 
-		public static float OutSine(float time)
+		public static float OutSineF(float time)
 		{
 			return (float)SineEasingFunction.Out(time);
 		}
 
-		public static float InOutSine(float time)
+		public static float InOutSineF(float time)
 		{
 			return (float)SineEasingFunction.InOut(time);
 		}
@@ -93,17 +93,17 @@ namespace Ease
 			return CubicEasingFunction.InOut(time);
 		}
 
-		public static float InCubic(float time)
+		public static float InCubicF(float time)
 		{
 			return (float)CubicEasingFunction.In(time);
 		}
 
-		public static float OutCubic(float time)
+		public static float OutCubicF(float time)
 		{
 			return (float)CubicEasingFunction.Out(time);
 		}
 
-		public static float InOutCubic(float time)
+		public static float InOutCubicF(float time)
 		{
 			return (float)CubicEasingFunction.InOut(time);
 		}
@@ -125,17 +125,17 @@ namespace Ease
 			return QuartEasingFunction.InOut(time);
 		}
 
-		public static float InQuart(float time)
+		public static float InQuartF(float time)
 		{
 			return (float)QuartEasingFunction.In(time);
 		}
 
-		public static float OutQuart(float time)
+		public static float OutQuartF(float time)
 		{
 			return (float)QuartEasingFunction.Out(time);
 		}
 
-		public static float InOutQuart(float time)
+		public static float InOutQuartF(float time)
 		{
 			return (float)QuartEasingFunction.InOut(time);
 		}
@@ -157,17 +157,17 @@ namespace Ease
 			return QuintEasingFunction.InOut(time);
 		}
 
-		public static float InQuint(float time)
+		public static float InQuintF(float time)
 		{
 			return (float)QuintEasingFunction.In(time);
 		}
 
-		public static float OutQuint(float time)
+		public static float OutQuintF(float time)
 		{
 			return (float)QuintEasingFunction.Out(time);
 		}
 
-		public static float InOutQuint(float time)
+		public static float InOutQuintF(float time)
 		{
 			return (float)QuintEasingFunction.InOut(time);
 		}
@@ -189,17 +189,17 @@ namespace Ease
 			return ExpoEasingFunction.InOut(time);
 		}
 
-		public static float InExpo(float time)
+		public static float InExpoF(float time)
 		{
 			return (float)ExpoEasingFunction.In(time);
 		}
 
-		public static float OutExpo(float time)
+		public static float OutExpoF(float time)
 		{
 			return (float)ExpoEasingFunction.Out(time);
 		}
 
-		public static float InOutExpo(float time)
+		public static float InOutExpoF(float time)
 		{
 			return (float)ExpoEasingFunction.InOut(time);
 		}
@@ -221,17 +221,17 @@ namespace Ease
 			return CircEasingFunction.InOut(time);
 		}
 
-		public static float InCirc(float time)
+		public static float InCircF(float time)
 		{
 			return (float)CircEasingFunction.In(time);
 		}
 
-		public static float OutCirc(float time)
+		public static float OutCircF(float time)
 		{
 			return (float)CircEasingFunction.Out(time);
 		}
 
-		public static float InOutCirc(float time)
+		public static float InOutCircF(float time)
 		{
 			return (float)CircEasingFunction.InOut(time);
 		}
@@ -253,17 +253,17 @@ namespace Ease
 			return BackEasingFunction.InOut(time);
 		}
 
-		public static float InBack(float time)
+		public static float InBackF(float time)
 		{
 			return (float)BackEasingFunction.In(time);
 		}
 
-		public static float OutBack(float time)
+		public static float OutBackF(float time)
 		{
 			return (float)BackEasingFunction.Out(time);
 		}
 
-		public static float InOutBack(float time)
+		public static float InOutBackF(float time)
 		{
 			return (float)BackEasingFunction.InOut(time);
 		}
@@ -285,17 +285,17 @@ namespace Ease
 			return ElasticEasingFunction.InOut(time);
 		}
 
-		public static float InElastic(float time)
+		public static float InElasticF(float time)
 		{
 			return (float)ElasticEasingFunction.In(time);
 		}
 
-		public static float OutElastic(float time)
+		public static float OutElasticF(float time)
 		{
 			return (float)ElasticEasingFunction.Out(time);
 		}
 
-		public static float InOutElastic(float time)
+		public static float InOutElasticF(float time)
 		{
 			return (float)ElasticEasingFunction.InOut(time);
 		}
@@ -317,17 +317,17 @@ namespace Ease
 			return BounceEasingFunction.InOut(time);
 		}
 
-		public static float InBounce(float time)
+		public static float InBounceF(float time)
 		{
 			return (float)BounceEasingFunction.In(time);
 		}
 
-		public static float OutBounce(float time)
+		public static float OutBounceF(float time)
 		{
 			return (float)BounceEasingFunction.Out(time);
 		}
 
-		public static float InOutBounce(float time)
+		public static float InOutBounceF(float time)
 		{
 			return (float)BounceEasingFunction.InOut(time);
 		}
